@@ -1,0 +1,7 @@
+:root {
+    --primary-color: #0A1128; /*ao determinar valores com variáveis globais, fica fácil de alterar depois pois elas ficam salvas aos setar var()*/
+    --white-color: #FFFFFF;
+    --gap: 3rem;
+    --secondary-color: crimson;
+    --light-gray-color: #EEEEEE;
+}

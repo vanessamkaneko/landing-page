@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800;900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <input type="checkbox" aria-label="Close menu" role="button"
+     class="close-menu" id="close-menu">
+     <label for="close-menu" class="close-menu-label" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1>
+                <a href="#home">LOGO</a>
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#grid-one">grid no.1</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#grid-two">grid no.2</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January brings us Firefox 85</h2>
+                <p>Version 85.0, first offered to Release channel users on January 26, 2021
+                    We'd like to extend a special thank you to all of the new Mozillians who contributed to this release of Firefox. At Mozilla, we believe you have a right to privacy. 
+                    You shouldn’t be tracked online.
+                </p>
+            </div>
+        
+            <div class="intro-img">
+                <img src="assets/img/javascript-not-optimized.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>just 6K but future-ready</h2>
+            <p>Create better designed websites, products and applications. Browse to find the images that fit your messaging, 
+                automagically customise the color to match your brand and use it as a normal image, 
+                embedded code or directly in your design workflow.</p>
+
+            <p>Use images that scale without quality degradation, making them not just 6K but future-ready. With a tiny file size, 
+                combine dozens SVG images without worries about speed and with the ability to embed them to minimise requests, 
+                for blazing-fast loading times.</p>
+
+            <p>Quality illustrations available for your designs with customisable color(s), 
+                objects that can be combined and modified to create new exciting images and with a 
+                design style that balances art and tech to future-proof your designs.</p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">My Grid</h2>
+            <p class="grid-description">just a little description here.</p>
+            <div class="grid">
+                <article>
+                    <h3>Título 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed, distinctio obcaecati
+                        cupiditate velit nostrum eius similique quisquam est maxime impedit qui dicta rerum assumenda repellendus. Officia id ab esse.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Título 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum,
+                        in est maiores repellendus ut ex aliquam ullam quas libero a, commodi corrupti? Molestiae quae consequatur dolorem cum odit vitae.
+                    </p>
+                 </article>
+
+                 <article>
+                    <h3>Título 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum,
+                        in est maiores repellendus ut ex aliquam ullam quas libero a, commodi corrupti? Molestiae quae consequatur dolorem cum odit vitae.
+                    </p>
+                 </article>
+            </div>
+        </div>  
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">just a little description here.</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=1" alt="random imagem from unsplash">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=2" alt="random imagem from unsplash">
+                </div>
+
+                 <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=3" alt="random imagem from unsplash">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=4" alt="random imagem from unsplash">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=5" alt="random imagem from unsplash">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=6" alt="random imagem from unsplash">
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">My Grid</h2>
+            <p class="grid-description">just a little description here.</p>
+            <div class="grid">
+                <article>
+                    <h3>Título 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed, distinctio obcaecati
+                        cupiditate velit nostrum eius similique quisquam est maxime impedit qui dicta rerum assumenda repellendus. Officia id ab esse.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Título 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum,
+                        in est maiores repellendus ut ex aliquam ullam quas libero a, commodi corrupti? Molestiae quae consequatur dolorem cum odit vitae.
+                    </p>
+                 </article>
+
+                 <article>
+                    <h3>Título 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum,
+                        in est maiores repellendus ut ex aliquam ullam quas libero a, commodi corrupti? Molestiae quae consequatur dolorem cum odit vitae.
+                    </p>
+                 </article>
+            </div>
+        </div>  
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Pricing</h2>
+            <p>Create better designed websites, products and applications. Browse to find the images that fit your messaging, 
+                automagically customise the color to match your brand and use it as a normal image, 
+                embedded code or directly in your design workflow.</p>
+
+            <p>Use images that scale without quality degradation, making them not just 6K but future-ready. With a tiny file size, 
+                combine dozens SVG images without worries about speed and with the ability to embed them to minimise requests, 
+                for blazing-fast loading times.</p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                            <th>Title 4</th>
+                            <th>Title 5</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>   
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>   
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>   
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>footer</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January brings us Firefox 85</h2>
+                <p>Version 85.0, first offered to Release channel users on January 26, 2021
+                    We'd like to extend a special thank you to all of the new Mozillians who contributed to this release of Firefox. At Mozilla, we believe you have a right to privacy. 
+                    You shouldn’t be tracked online.
+                </p>
+            </div>
+        
+            <div class="intro-img">
+                <img src="assets/img/javascript-not-optimized.svg" alt="Ilustração de logo de CSS, JavaScript e HTML sendo segurados por pessoas">
+            </div>
+
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Your e-mail">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit">Send message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+   
+    <footer id="footer" class="footer white-bg">
+        <p>Feito com <span class="heart">♥</span> por Vanessa Kaneko</p>
+    </footer>
+
+    
+    <a class="back-to-top" href="#">⇧</a>
+</body>
+</html>
